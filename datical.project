@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<dbproject:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dbproject="http://datical.com/db/project/1.0" name="Napa_MSSQL_09302019" storedLogicExternal="true" deployThreshold="stopOnError" runtimeCredentials="false" multiSchema="true" dbSchemaDefinition="project" schemaSelectionStep="REF" trackingSchema="dbo" enableRowCount="disabled" multiCatalog="false">
+  <dbDefs xsi:type="dbproject:SqlServerDbDef" name="REF" driver="com.microsoft.sqlserver.jdbc.SQLServerDriver" hostname="3.209.15.24" port="1433" username="system" password="cGFzc3dvcmQ=" databaseName="DBNapa" integratedSecurity="false" applicationName="Datical DB"/>
+  <plans name="Napa_MSSQL_09302019" databaseDefs="//@dbDefs[name='REF']"/>
+  <changelog href="Changelog/changelog.xml#//@databaseChangeLog"/>
+  <schemas name="dbo"/>
+</dbproject:Project>
